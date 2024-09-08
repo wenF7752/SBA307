@@ -5,7 +5,9 @@
     /* border: 1px solid blue; */
     background-color: #f2e9e4;
 }
-
+::placeholder{
+    text-align: center;
+ }
 #header-logo, #user-profile-logo {
     width: 50px;
     height: 50px;
@@ -66,42 +68,42 @@ li{
     align-items: center;
     gap: 20px;
     background-color: transparent;
-  
-}
-button {
-    width: 100%;
-    outline: 0;
-    grid-gap: 8px;
-    align-items: center;
-    background: 0 0;
-    border: 2px solid #f2e9e4;
-    border-radius: 4px;
-    cursor: pointer;
-    display: inline-flex;
-    flex-shrink: 0;
-    font-size: 16px;
-    gap: 8px;
-    justify-content: center;
-    line-height: 1.5;
-    overflow: hidden;
-    padding: 9px 12px;
-    text-decoration: none;
-    text-overflow: ellipsis;
-    transition: all 1505ms ease-out;
-    white-space: nowrap;
-    :hover {
-        box-shadow: 4px 4px 0 #f2e9e4;
-        transform: translate(-4px,-4px);
-    }
-    :focus-visible{
-        outline-offset: 1px;
-    }
-    strong {
-     background-color: transparent;
-    }
-
+    button {
+        width: 100%;
+        outline: 0;
+        grid-gap: 8px;
+        align-items: center;
+        background: 0 0;
+        border: 2px solid #f2e9e4;
+        border-radius: 4px;
+        cursor: pointer;
+        display: inline-flex;
+        flex-shrink: 0;
+        font-size: 16px;
+        gap: 8px;
+        justify-content: center;
+        line-height: 1.5;
+        overflow: hidden;
+        padding: 9px 12px;
+        text-decoration: none;
+        text-overflow: ellipsis;
+        transition: all 1505ms ease-out;
+        white-space: nowrap;
+        :hover {
+            box-shadow: 4px 4px 0 #f2e9e4;
+            transform: translate(-4px,-4px);
+        }
+        :focus-visible{
+            outline-offset: 1px;
+        }
+        strong {
+         background-color: transparent;
+        }
     
+        
+    }
 }
+
 
 .gif-section{
 
@@ -110,6 +112,70 @@ button {
     align-items: center;
     height:400px;
     width: 100%;
+    justify-content: space-around;
+    background-color: #fee4c8;
 
 }   
 
+.subscrib-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    background-color: #fee4c8;
+    h2{
+        margin-bottom: 20px;
+        background-color: transparent;
+    }
+
+    .submit-input{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        background-color: transparent;
+        input{
+            height: 100%;
+            padding: 5px;
+            border: 1px solid #fee4c8;
+
+        }
+        button {
+            width: 30%;
+            outline: 0;
+            grid-gap: 8px;
+            align-items: center;
+            background: 0 0;
+            border: 2px solid #f2e9e4;
+            border-radius: 4px;
+            cursor: pointer;
+            display: inline-flex;
+            flex-shrink: 0;
+            font-size: 16px;
+            gap: 8px;
+            justify-content: center;
+            line-height: 1.5;
+            overflow: hidden;
+            padding: 9px 12px;
+            text-decoration: none;
+            text-overflow: ellipsis;
+            transition: all 1505ms ease-out;
+            white-space: nowrap;
+            :hover {
+                box-shadow: 4px 4px 0 #f2e9e4;
+                transform: translate(-4px,-4px);
+            }
+            :focus-visible{
+                outline-offset: 1px;
+            }
+            strong {
+             background-color: transparent;
+            }
+        
+            
+        }
+    }
+    
+}
