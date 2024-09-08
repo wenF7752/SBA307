@@ -30,7 +30,7 @@ File Structure
 ├── images/
 │   ├── logo.png             # website logo
 │   ├── user-profile-logo.png # profile pic logo image
-    └── landing-img-card.jpg # landing page image
+│   └── landing-img-card.jpg # landing page image
 └── README.md                # This README file
 
 
