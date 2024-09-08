@@ -12,7 +12,8 @@
 #header-logo, #user-profile-logo {
     width: 50px;
     height: 50px;
-    background-color: red;
+    background-color: #fee4c9;
+    border-radius: 5%;
 }
 .container {
     display: flex;
@@ -43,9 +44,12 @@ ul {
     display: flex;
     list-style-type: none;
     align-items: center;
+    
 }
 li{
     align-items: center;
+    background-color: #fee4c9;
+    
 }
 
 .landing-img-card {
